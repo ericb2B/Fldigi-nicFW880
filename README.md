@@ -8,4 +8,4 @@ that's work in this version :
 - Frequency read,set
 - Mode read,set
 - S-Meter
-- Bandwidth
+- Bandwidth read,set
