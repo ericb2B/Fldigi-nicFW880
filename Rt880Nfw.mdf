@@ -1,0 +1,271 @@
+//fldigi macro definition file extended
+// This file defines the macro structure(s) for the digital modem program, fldigi
+// It also serves as a basis for any macros that are written by the user
+//
+// The top line of this file should always be the first line in every macro 
+// definition file (.mdf) for the fldigi program to recognize it as such.
+//
+
+//
+// Macro # 1
+/$ 0 VFO A
+<RIGCAT: 56 20 41 0D:ret>
+
+//
+// Macro # 2
+/$ 1 VFO B
+<RIGCAT: 56 20 42 0D:ret>
+
+//
+// Macro # 3
+/$ 2 VFO C
+<RIGCAT: 56 20 43 0D:ret>
+
+//
+// Macro # 4
+/$ 3 Mode Frequence
+<RIGCAT: 4D 20 30 0D:ret>
+
+//
+// Macro # 5
+/$ 4 
+<RIGCAT: 50 20 31 0D 50 20 58 0D:ret>\n
+
+
+//
+// Macro # 6
+/$ 5 
+\n
+op:  <MYNAME>\n
+qth: <MYQTH>\n
+loc: <MYLOC>\n
+
+
+//
+// Macro # 7
+/$ 6 
+\n
+<< <MYCALL>, <MYNAME> >>\n
+Age:   \n
+Rig:   \n
+Pwr:   \n
+Ant:   \n
+OS:    \n
+Soft:  <VER>\n
+Web:   \n
+Email: 
+
+//
+// Macro # 8
+/$ 7 
+
+
+//
+// Macro # 9
+/$ 8 Radio on
+<RIGCAT: 50 20 38 0D:ret>\n
+<RIGCAT: 50 20 58 0D:ret>
+
+//
+// Macro # 10
+/$ 9 Radio off
+<RIGCAT: 50 20 52 0D:ret>\n
+<RIGCAT: 50 20 58 0D:ret>
+
+//
+// Macro # 11
+/$ 10 
+<RX>
+
+//
+// Macro # 12
+/$ 11 
+<TX>\n
+de <MYCALL> k\n
+<RX>
+
+//
+// Macro # 13
+/$ 12 Monitor
+<RIGCAT: 50 20 53 0D 50 20 58 0D:ret>\n
+
+
+//
+// Macro # 14
+/$ 13 
+<RIGCAT:53 20 30 0D:ret>
+
+//
+// Macro # 15
+/$ 14 
+
+
+//
+// Macro # 16
+/$ 15 Mode Channel
+<RIGCAT: 4D 20 31 0D:ret>
+
+//
+// Macro # 17
+/$ 16 
+
+
+//
+// Macro # 18
+/$ 17 
+
+
+//
+// Macro # 19
+/$ 18 
+
+
+//
+// Macro # 20
+/$ 19 
+
+
+//
+// Macro # 21
+/$ 20 
+
+
+//
+// Macro # 22
+/$ 21 
+<TX><ID>\n
+CQ CQ CQ de <MYCALL> <MYCALL>\n
+CQ CQ CQ de <MYCALL> <MYCALL> K\n
+<RX>
+
+//
+// Macro # 23
+/$ 22 
+
+
+//
+// Macro # 24
+/$ 23 
+
+
+//
+// Macro # 25
+/$ 24 
+
+
+//
+// Macro # 26
+/$ 25 
+
+
+//
+// Macro # 27
+/$ 26 
+
+
+//
+// Macro # 28
+/$ 27 Mode Groupe
+<RIGCAT: 4D 20 32 0D:ret>
+
+//
+// Macro # 29
+/$ 28 
+
+
+//
+// Macro # 30
+/$ 29 
+
+
+//
+// Macro # 31
+/$ 30 
+
+
+//
+// Macro # 32
+/$ 31 
+
+
+//
+// Macro # 33
+/$ 32 
+
+
+//
+// Macro # 34
+/$ 33 
+
+
+//
+// Macro # 35
+/$ 34 
+
+
+//
+// Macro # 36
+/$ 35 
+
+
+//
+// Macro # 37
+/$ 36 
+
+
+//
+// Macro # 38
+/$ 37 
+
+
+//
+// Macro # 39
+/$ 38 Scan Presets
+<RIGCAT: 50 20 31 0D:ret>\n
+<RIGCAT: 50 20 58 0D:ret>
+
+//
+// Macro # 40
+/$ 39 Multiwatch
+<RIGCAT: 50 20 39 0D:ret>\n
+<RIGCAT: 50 20 58 0D:ret>
+
+//
+// Macro # 41
+/$ 40 
+
+
+//
+// Macro # 42
+/$ 41 
+
+
+//
+// Macro # 43
+/$ 42 
+
+
+//
+// Macro # 44
+/$ 43 
+
+
+//
+// Macro # 45
+/$ 44 
+
+
+//
+// Macro # 46
+/$ 45 
+
+
+//
+// Macro # 47
+/$ 46 
+
+
+//
+// Macro # 48
+/$ 47 
+
