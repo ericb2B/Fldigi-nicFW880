@@ -12,3 +12,5 @@ that's work in this version :
 - S-Meter
 - Bandwidth read,set
 - PTT
+
+Fichier Macro : Rt880Nfw.mdf
