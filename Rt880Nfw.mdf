@@ -87,7 +87,7 @@ de <MYCALL> k\n
 //
 // Macro # 13
 /$ 12 Monitor
-<RIGCAT: 50 20 53 0D 50 20 58 0D:ret>\n
+<RIGCAT: 50 20 53 0D:ret> <RIGCAT: 50 20 58 0D:ret>\n
 
 
 //
@@ -252,8 +252,8 @@ CQ CQ CQ de <MYCALL> <MYCALL> K\n
 
 //
 // Macro # 45
-/$ 44 
-
+/$ 44 test
+<DTMF:W250:L100:1-256-827-3200>
 
 //
 // Macro # 46
