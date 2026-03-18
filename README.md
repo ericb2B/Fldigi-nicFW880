@@ -9,3 +9,4 @@ that's work in this version :
 - Mode read,set
 - S-Meter
 - Bandwidth read,set
+- PTT
