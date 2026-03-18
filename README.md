@@ -14,3 +14,9 @@ that's work in this version :
 - PTT
 
 Fichier Macro : Rt880Nfw.mdf
+- select Vfo
+- select mode Vfo
+- Multiwatch
+- Scan Presets
+- Radio on
+- Radio off
